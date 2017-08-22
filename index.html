@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Garden App</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="date.js" type="text/javascript"></script>
+</head>
+
+
+<body>
+
+<h1>Hello World</h1>
+  <div id="mainBody"></div>
+<!-- form to collect plant info from user -->
+  <form>
+    Plant Name:<br>
+    <input type="text" name="plantname"><br>
+    Days to Maturity:<br>
+    <input id="dtm" type="number" name="dtm" min="1"><br>
+
+  </form>
+  <button id="submit">Submit</button>
+  <h3>Date Output</h3>
+  <p id="textOutput"></p>
+  <p id="dateOutput"></p>
+<p id="test"></p>
+
+<script src="garden.js"></script>
+</body>
+
+</html>
